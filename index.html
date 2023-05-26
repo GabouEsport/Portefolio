@@ -1,4 +1,3 @@
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -21,7 +20,7 @@
         <link rel="stylesheet" href="/css/styles.css">
         <link rel="stylesheet" href="/css/normalize.css">
 
-        <title>Gabin COMORGE Portefolio - Alternance</title>
+        <title>Gabin COMORGE Portefolio - Accueil</title>
     </head>
 <body>
 
@@ -42,15 +41,15 @@
     <!-- MENU -->
     <div class="top-bar-right text-left" >
         <ul class="dropdown menu button-group" data-dropdown-menu style="padding-right: 75px">
-            <li class="active"><a href="/index.html">Accueil</a></li>
+            <li class="active"><a href="/">Accueil</a></li>
 
             <li><a href="/CV_Gabin.pdf">Mon Parcours</a></li>
 
             <li>
-                <a href="/projets/index.html" onclick="location.href='/projets/index.html';">Mes Projets et formations</a>
+                <a href="/projets/" onclick="location.href='/projets/';">Mes Projets et formations</a>
                 <ul class="menu">
-                    <li><a href="/projets/index.html#bts1" onclick="location.href='/projets/index.html#bts';">BTS SIO</a></li>
-                    <li><a href="/projets/index.html#bts2" onclick="location.href='/projets/index.html#csi';">Bachelor CSI</a></li>
+                    <li><a href="/projets/#bts1" onclick="location.href='/projets/#bts';">BTS SIO</a></li>
+                    <li><a href="/projets/#bts2" onclick="location.href='/projets/#csi';">Bachelor CSI</a></li>
 
                     <li><a href="/alternance.html" onclick="location.href='/alternance.html';">Alternance</a></li>
                     <li><a href="/autoformation.html" onclick="location.href='/autoformation.html';">Autoformation</a></li>
@@ -64,54 +63,47 @@
 </div>
 <!-- End of top bar -->
 
+
+<div class="row" id="particles">
+    <div class="text-center" id="intro">
+        <h1>Présentation</h1>
+
+    </div>
+</div>
+
 <div class="row" id="content">
     <div class="grid-container">
 
         <div class="grid-x">
             <div class="medium-12 columns">
                 <div class="medium-12 column text-left">
-
-                    <img src="Itrust.jpg">
-
-                    <h1>Alternance en Cybersécurité</h1>
-
-                    <hr>
-
-                    <p>
-                        J’ai commencé mon alernance en tant qu’Analyste SOC chez Itrust le 9 Janvier 2023.
-                        <br><br>
-                        Entreprise de cybersécurité créée en 2007 qui a développé ses propres solutions afin de pouvoir aider ses clients.
-                        C’est une entreprise avec des compétences vastes dans la cybersécurité.
-                        Ils ont tout d’abord commencer leur activité avec un pole red team réalisant du pen-testing en externe ou interne suivant les demandes.
-                        Après cela, ils ont développé Ikare, un scanner de vulnérabilité qui peut scanner tout ce qui a une adresse ip afin d’en analyser les vulnérabilités.
-                        Ensuite, ils ont créé leur solution réveelium, c’est une technologie SIEM UEBA d’analyse des comportements des utilisateurs liant IA et threat intelligence.
-                        Grace à ces solutions et à des EDR( Endpoint Detection and Response) partenaire comme ESET, ils ont pu créé une blue team, un SOC ( security operation center) dont je fais partie.
-                        <br><br>
-                        Concrètement, Itrust va déployer ses solutions chez les clients qui souscrivent à notre SOC, cela va nous permettre d’analyser en temps réel les logs de tout ce qu’il se passe dans leur réseau et infrastructure.
-                        Pour certain clients nous recevons plusieurs milliers de logs à la seconde, ces logs vont par la suite être analysé par Reveelium ou un EDR et nous faire remonter des alertes.
-                        A nous d’analyser ces alertes, de vérifier leur pertinence et leur gravité afin de pouvoir notifier le client si besoin et de lui recommander une marche à suivre.
-                        Ces alertes peuvent être très diverses, des processus suspects installés, des adresses Ips malveillantes consultées, des exfiltration de données, des utilisateurs ayant un comportement étrange …
-                        Afin de pouvoir analyser ces nombreuses alertes efficacement nous devons être capable de nous auto-former de manière constante ainsi que d’avoir un bon esprit critique pour cibler les bonnes informations.
-                        La cybersécurité étant un secteur évoluant de manière constante, nous apprenons de nouvelles informations en permanence et c’est quelque chose que je recherche professionnellement.
-                        <hr>
-                        <br>
-                        <a href="https://docs.google.com/document/d/1_0x9CIOpI7ApvWCszDMEyV2Idv6ps1ZjVt7sPy3ELUs/edit?usp=sharing" target="_blank">
-                            <button class="button">Voir des exemples d’alertes notifiées à un client</button>
-                        </a>
+                    <h3 id="test">Bonjour et bienvenue sur mon Portfolio</h3>
+                    <p> Je m’appelle Gabin Comorge, j’ai 26 ans et j’étudie en seconde année de BTS SIO
+                        au lycée Henri Matisse à Cugnaux. Avant cela je suis passé par différents cursus
+                        et des problèmes de santé m’ont empêché de mener à bien mes études. J’ai par la suite
+                        été en contrat étudiant chez Ikea en tant que Concepteur de Cuisine pendant 2 ans et
+                        demi jusqu’à ma démission en Décembre 2022. J’ai démissionné car depuis Janvier je
+                        travaille en alternance chez ITrust, un Editeur de solution en Cybersécurité.
+                        Je souhaite par la suite continuer mes études jusqu’en bac +5, en Cybersécurité ou
+                        dans l’intelligence artificielle, qui sont des domaines qui m’intéressent beaucoup,
+                        sont porteurs et voués à évoluer dans les futures années.
                     </p>
                     <hr>
+                    
+
 
                 </div>
                 <div class="row">
-                    <div class="medium-6 text-right column">
-                        <output id="cards"><github-card user="Elysio3"></github-card></output>
+                    
+                    <div class="medium-12 text-center column">
+                        <a href="/CV_Gabin.pdf" target="_blank">
+                            <button class="button"">
+                                Voir mon CV
+                            </button>
+                        </a>
+                        <output id="cards"><github-card user="GabouEsport"></github-card></output>
                     </div>
-                    <div class=" medium-6 text-left column">
-                        <div class="badge-base LI-profile-badge text-right" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="maël-kerviche-57ab76202" data-version="v1">
-                            <!-- TODO change linkedin url-->
-                            <a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/ma%C3%ABl-kerviche-57ab76202?trk=profile-badge" target="_blank"><br><br></a>
-                        </div>
-                    </div>
+                    
 
                 </div>
 
@@ -121,6 +113,7 @@
     </div>
 </div>
 <hr>
+
 
 <footer>
     <div class="medium-text-right" style="padding-right: 15px">
