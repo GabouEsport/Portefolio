@@ -116,10 +116,21 @@
         <div class="grid-x">
             <div class="medium-12 columns">
 
-                <div class="medium-12 column text-left">
-                    <h3 id="test">GLPI</h3>
-                    <img src="GLPI.png">
-                </div>
+              <div class="medium-6 column text-left">
+                <h3 id="test">GLPI</h3>
+                <div id="piechart" style="width: auto; height: 300px; z-index: -10;"></div>
+            </div>
+
+            <div class="small-6 column text-left">
+                <h3>&emsp;</h3>
+                <p>
+                  <button class=" button primary"><a href="https://github.com/glpi-project/glpi-agent/releases/tag/1.4" target="_blank" style="color: white">
+                      Télécharger l'agent
+                  </a></button>
+                </p>
+                <hr>
+
+            </div>
             </div>
         </div>
 
@@ -136,6 +147,11 @@
                       également des fonctionnalités avancées pour la gestion des actifs, la gestion des contrats,
                       la gestion des changements et la gestion des connaissances. C'est un outil polyvalent et
                       personnalisable largement utilisé pour optimiser l'efficacité des équipes informatiques. 
+
+                      Afin d'automatiser l'inventaire et la gestion du parc informatique on peut utiliser un 
+                      agent qui permet d'envoyer automatiquement les informations à GLPI. Celui va nous permettre
+                      de recenser le parc informatique automatiquement ainsi que d'appliquer les modifications directements.
+                      De plus, nous pouvons rajouter des regles d'inventaires  plus précises si c'est nécéssaires. 
                     <hr>
 
                 </div>
